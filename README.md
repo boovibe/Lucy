@@ -1,44 +1,22 @@
 # Lucy 🐾
 
+<img src="docs/images/donerci-lucy.gif" alt="Dönerci Lucy iş başında" width="220"> <img src="docs/images/dondurmaci-lucy.gif" alt="Lucy dondurmanın tadını çıkarıyor" width="176">
+
 **Masaüstünde küçük bir dost, gününde sana ait bir köşe.**
 
-Lucy, Windows için animasyonlu bir masaüstü maskotu ve kişisel takip uygulamasıdır. Hatırlatmalar, görevler, alışveriş listeleri, su ve kahve günlüğü ile ölçümler tek bir yerde buluşur.
+Lucy; hatırlatmalarını, rutinlerini, alışveriş listelerini ve günlük takibini bir araya getiren animasyonlu bir Windows masaüstü arkadaşıdır.
 
-## Lucy ile tanış
-
-### Gününe küçük bir başlangıç
-
-Görevlerine, listelerine ve küçük molalarına ana ekrandan ulaş.
+## Lucy'nin köşesi
 
 ![Lucy'nin ana ekranı](docs/images/ana-ekran.png)
 
-### Rutinlerine yer aç
-
-Sabah, akşam, spor ve diğer bakım rutinlerini kendi ihtiyaçlarına göre düzenle.
-
-![Lucy'de kişisel bakım rutinleri](docs/images/bakim-rutinleri.png)
-
-### Listelerin yanında olsun
-
-Alışveriş listeleri oluştur, ürün ve miktar ekle; aldıklarını işaretle.
-
 ![Lucy'de örnek alışveriş listesi](docs/images/alisveris.png)
 
-### Haftanı takip et
-
-Takviyelerini ve miktarlarını kaydet, haftalık tabloda işaretle.
-
-![Lucy'de örnek haftalık takviye tablosu](docs/images/takviyeler.png)
-
-> Görseller, uygulamanın test modunda oluşturulmuş örnek veriler içerir.
+*Görseller uygulamanın test modunda, örnek verilerle hazırlanmıştır.*
 
 ## Başlarken
 
-1. Bu depoyu indir ve dosyaları aynı klasöre çıkar.
-2. Windows'ta `Lucy.exe` dosyasını aç. .NET Framework 4.7.2 veya üzeri gereklidir.
-3. Masaüstü ve Windows başlangıcı için kısayollar istersen PowerShell'de `./Kur.ps1` komutunu çalıştır.
-4. Kaynak koddan derlemek için aynı klasörde `./Derle.ps1` komutunu çalıştır.
+1. Depoyu indir, dosyaları aynı klasöre çıkar ve `Lucy.exe` dosyasını aç. Windows ve .NET Framework 4.7.2 veya üzeri gereklidir.
+2. İstersen kısayollar için `./Kur.ps1`, kaynak koddan derlemek için `./Derle.ps1` komutunu PowerShell'de çalıştır.
 
-İlk açılışta boş bir profil oluşturulur. Kayıtlar uygulama klasöründeki `data` dizinine, oluşturduğun raporlar `Raporlar` dizinine yazılır. Her iki dizin de Git dışında tutulur.
-
-Masaüstü hareketleri ve günlük takip için [kullanım rehberine](Beni%20oku.md) göz atabilirsin.
+İlk açılışta boş bir profil oluşur. Kayıtlar `data`, raporlar `Raporlar` klasöründe yerel olarak saklanır ve Git dışında tutulur. Daha fazlası için [kullanım rehberine](Beni%20oku.md) bakabilirsin.
