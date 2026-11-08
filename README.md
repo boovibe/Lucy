@@ -1,13 +1,10 @@
 # Lucy 🐾
 
-<table>
-  <tr>
-    <td width="25%" align="center"><img src="docs/images/donerci-lucy.gif" alt="Dönerci Lucy iş başında" width="220"></td>
-    <td width="25%" align="center"><img src="docs/images/dondurmaci-lucy.gif" alt="Lucy dondurma yiyor" width="220"></td>
-    <td width="25%" align="center"><img src="docs/images/pizzaci-lucy.gif" alt="Lucy pizza yiyor" width="220"></td>
-    <td width="25%" align="center"><img src="docs/images/oyuncu-lucy.gif" alt="Lucy patileriyle oynuyor" width="220"></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="docs/images/donerci-lucy.gif" alt="Dönerci Lucy iş başında" width="32%">
+  <img src="docs/images/dondurmaci-lucy.gif" alt="Lucy dondurma yiyor" width="32%">
+  <img src="docs/images/pizzaci-lucy.gif" alt="Lucy pizza yiyor" width="32%">
+</p>
 
 **Masaüstünde küçük bir dost, gününde sana ait bir köşe.**
 
